@@ -47,4 +47,5 @@ The system will display the image and print the generated caption. It will also 
 # Acknowledgements
 
 Flickr 8k Dataset: Flickr 8k Dataset
+
 VGG16 Model: VGG16 - Very Deep Convolutional Networks for Large-Scale Image Recognition
