@@ -26,26 +26,25 @@ Run `extract_features.py` to extract features from the images in the dataset usi
 
 ```sh
 python extract_features.py
-
- 
+```
 2. Train the Image Captioning Model
 
 Run trai_model.py to train the image captioning model using the extracted features and captions.
-
+```sh
 python trai_model.py
-
+```
 3. Generate Image Descriptions and Voice Output
 
 Run inference.py to generate captions for new images and convert them to speech.
-
+```sh
 python inference.py
-
+```
 Sample Output
 
 The system will display the image and print the generated caption. It will also play an audio description of the image.
 
 
-Acknowledgements
+# Acknowledgements
 
 Flickr 8k Dataset: Flickr 8k Dataset
 VGG16 Model: VGG16 - Very Deep Convolutional Networks for Large-Scale Image Recognition
