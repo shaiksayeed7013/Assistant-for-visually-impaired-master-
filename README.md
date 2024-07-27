@@ -20,10 +20,13 @@ cd Assistant-for-visually-impaired-master
 pip install -r requirements.txt
 
 # Usage
-1. Extract Features from Images
-Run extract_features.py to extract features from the images in the dataset using the VGG16 model.
+### 1. Extract Features from Images
 
- python extract_features.py
+Run `extract_features.py` to extract features from the images in the dataset using the VGG16 model.
+
+```sh
+python extract_features.py
+
  
 2. Train the Image Captioning Model
 
