@@ -19,7 +19,8 @@ pip install -r requirements.txt
 Usage
 1. Extract Features from Images
 Run extract_features.py to extract features from the images in the dataset using the VGG16 model.
-python extract_features.py
+
+ bash python extract_features.py
 2. Train the Image Captioning Model
 Run trai_model.py to train the image captioning model using the extracted features and captions.
 python trai_model.py
